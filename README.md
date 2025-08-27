@@ -25,12 +25,14 @@ It provides personalized, practical, and culturally relevant nutrition advice ba
 
 ## 📂 Project Structure
 
+```
 nutrition-agent/
 │── nutrition_literacy.txt     # Base nutrition knowledge
 │── app.py                     # Main application
 │── requirements.txt           # Dependencies
 │── README.md                  # Documentation
 
+```
 
 ---
 
