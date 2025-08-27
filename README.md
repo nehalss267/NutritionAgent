@@ -51,4 +51,3 @@ Main script that:
 
 ---
 
--3.3-8b-instruct).
