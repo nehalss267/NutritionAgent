@@ -109,7 +109,7 @@ You’ll get a local URL and a public sharing link from Gradio.
 ---
 ## Demo
 
-[Nutrition Agent Demo](assets/demo.png)
+[Nutrition Agent Sample Output](assets/demo.png)
    
 ## 📝 Future Improvements
 
