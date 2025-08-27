@@ -17,7 +17,7 @@ from langchain.chains import RetrievalQA, LLMChain
 from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-#Steps of generating replicating API Token in README.md
+#Steps of generating Replicate API Token in README.md
 os.environ['REPLICATE_API_TOKEN'] = "<YOUR_REPLICATE_API_TOKEN>"
 model_path = "ibm-granite/granite-3.3-8b-instruct"
 tokenizer = AutoTokenizer.from_pretrained(model_path)
