@@ -1,0 +1,26 @@
+# 📄 Nutrition Literacy Content
+filename = "nutrition_literacy.txt"
+with open(filename, "w") as f:
+    f.write("""
+Balanced Diet: A balanced diet includes carbohydrates, proteins, fats, vitamins, minerals, and water in the right amounts for proper growth and health.
+
+Macronutrients: Carbohydrates provide energy, proteins build and repair tissues, and fats store energy and support cell function.
+
+Micronutrients: Vitamins and minerals help boost immunity, support growth, and maintain overall body functions. Examples include Vitamin C, Iron, and Calcium.
+
+Hydration: Drinking enough water keeps the body hydrated, improves digestion, and regulates body temperature.
+
+Reading Food Labels: Check nutritional information on packaged foods. Look for calories, sugar, fat, protein, and fiber content before consuming.
+
+Healthy Eating Habits: Eat more fruits, vegetables, whole grains, and lean proteins. Avoid excess sugar, junk food, and deep-fried items.
+
+Meal Planning: Plan meals in advance to ensure balanced nutrition. Include variety in food groups for better health.
+
+Portion Control: Eat in moderate portions to avoid overeating. Smaller plates can help manage food intake.
+
+Physical Activity: Combine good nutrition with at least 30 minutes of daily exercise for a healthy lifestyle.
+
+Food Safety: Wash fruits and vegetables, cook food properly, and store leftovers safely to avoid food-borne illness.
+
+Explain about Importance of Breakfast. Explain Benefits of Eating Fruits Daily also.
+""")
