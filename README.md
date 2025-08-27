@@ -130,7 +130,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📜 License
 
-This project is for research and educational use. Ensure usage of the IBM Granite model complies with its [license terms]([https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md])
+This project is for research and educational use. Ensure usage of the IBM Granite model complies with its [license terms](https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/apache-2.0.md)
 
 
 
