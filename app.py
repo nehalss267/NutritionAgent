@@ -93,7 +93,10 @@ Always keep responses personalized, culturally relevant, and realistic to follow
 prompt = PromptTemplate(template=template, input_variables=["question"])
 
 llm_chain = LLMChain(llm=model, prompt=prompt)
-combine_chain = StuffDocumentsChain(llm_chain=llm_chain)
+combine_chain = StuffDocumentsChain(
+    llm_chain=llm_chain,
+    document_variable_name="question"
+)
 
 rag_chain = RetrievalQA(
     retriever=vector_db.as_retriever(),
