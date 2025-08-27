@@ -107,9 +107,9 @@ You’ll get a local URL and a public sharing link from Gradio.
 - **Device**: Uses GPU if available, else CPU
 
 ---
-##Demo
+## Demo
 
-![Nutrition Agent Demo](assets/demo.png)
+[Nutrition Agent Demo](assets/demo.png)
    
 ## 📝 Future Improvements
 
