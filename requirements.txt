@@ -1,0 +1,8 @@
+gradio
+langchain
+langchain-community
+langchain-milvus
+transformers
+pymilvus
+replicate
+sentence-transformers
