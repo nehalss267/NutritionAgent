@@ -55,8 +55,6 @@ Portion Control: Eat in moderate portions to avoid overeating. Smaller plates ca
 Physical Activity: Combine good nutrition with at least 30 minutes of daily exercise for a healthy lifestyle.
 
 Food Safety: Wash fruits and vegetables, cook food properly, and store leftovers safely to avoid food-borne illness.
-
-Explain about Importance of Breakfast. Explain Benefits of Eating Fruits Daily also.
 """)
 
 loader = TextLoader(filename)
@@ -109,7 +107,7 @@ def ask_nutrition_agent(query):
         response = rag_chain.run(query)
         return response
     except Exception as e:
-        return f"❌ Error: {str(e)}"
+        return f"Error: {str(e)}"
 
 iface = gr.Interface(
     fn=ask_nutrition_agent,
